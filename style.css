@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.swiper-slide {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 100px;
+
+}
+
+.title{
+    font-weight: 3px;
+    font-size: 72px; 
+    color: rgb(0, 0, 0);
+
+}
+
+.subtitle{
+    font-weight: 3px;
+    font-size: 36px; 
+    color: rgb(0, 0, 0);
+}
+
+.slide-dw
+{   background-image: url(./JJ/WD.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide-cd
+{   background-image: url(./JJ/CD.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide-cdeb
+{   background-image: url(./JJ/CDEB.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*tabssss*/
+.tabs {
+    overflow: hidden;
+    border-bottom: 1px solid #18005b;
+  }
+
+  .tablinks {
+    background-color: #ffffff;
+    float: left;
+    border: 1px solid #000000;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .tablinks:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .tablinks.active {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  .tabcontent.active {
+    display: block;
+  }
+  .sidenav {
+    background-color: #2d2d2d;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+/*auth*/
+.form-style {
+    margin: 10px auto;
+    width: 400px;
+    padding: 20px 12px 10px 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    margin: 0 0 3px 0;
+    padding: 0px;
+    display: block;
+    font-weight: bold;
+}
+
+.required {
+    color: red;
+}
+
+input[type=submit],
+input[type=reset] {
+    background: #000000;
+    padding: 8px 15px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background: #000000;
+    box-shadow: none;
+}
+
+.field-textarea {
+    height: 100px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    box-sizing: border-box;
+    border: 1px solid #BEBEBE;
+    padding: 7px;
+    margin: 0;
+    transition: all 0.30s ease-in-out;
+    outline: none;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
+    box-shadow: 0 0 8px #333333;
+    border: 1px solid #2c2d2d;
+}
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}

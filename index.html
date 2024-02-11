@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>JavaScript</title>
+  </head>
+  <body>
+      <nav class="sidenav">
+        <button id="darkModeButton">Mode Sombre</button>
+        <a href="inscri.html"><button>Inscription</button></a>
+
+        </nav>
+    <div class="swiper mon-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide-dw">
+          <p class="subtitle">Axe Métier</p>
+          <p class="title">Développement web</p>
+        </div>
+
+        <div class="swiper-slide slide-cd">
+          <p class="subtitle">Axe Métier</p>
+          <p class="title">Création & Design</p>
+        </div>
+
+        <div class="swiper-slide slide-cdeb">
+          <p class="subtitle">Axe Métier</p>
+          <p class="title">Communication digitale & E-business</p>
+        </div>
+        
+      </div>
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="tabs">
+      <button class="tablinks active" onclick="openTab(event, 'tab1')">Axe CDEB</button>
+      <button class="tablinks" onclick="openTab(event, 'tab2')">Axe CDI</button>
+      <button class="tablinks" onclick="openTab(event, 'tab3')">Axe CD</button>
+  </div>
+
+  <div id="tab1" class="tabcontent">
+      <h3>L'axe CDEB</h3>
+      <li>Nouvelles attentes des consommateurs, réseaux sociaux, explosion de la vente en ligne, apparition de nouveaux services et de nouveaux usages… La communication digitale est désormais partout. En moins de 20 ans, Internet a révolutionné l’économie mondiale et notre manière de consommer. Tous les secteurs professionnels doivent intégrer cette nouvelle donne et communiquer différemment. Ils font désormais appel à des profils hybrides alliant business et technologies.</li>
+  </div>
+
+  <div id="tab2" class="tabcontent">
+      <h3>L'axe Coding & Digital innovation</h3>
+      <li>La transformation digitale et les changements qu’elle implique sur les consommateurs et les professionnels sont si nombreux que les entreprises doivent adapter leurs systèmes d’information pour les ouvrir aux plateformes web et mobiles et intégrer les dernières évolutions telles que le cloud, les objets connectés, le Big Data, l’intelligence artificielle ou le machine learning. Le secteur est composé de sociétés spécialisées en technologies : startups, entreprises de services numériques (ESN) ou éditeurs de logiciels et des directions de la technologie et des systèmes d’information des grandes entreprises</li>
+  </div>
+
+  <div id="tab3" class="tabcontent">
+      <h3>L'axe Création & Design</h3>
+      <li>Le digital transforme la façon dont les marques communiquent en même temps qu’il crée de nouveaux supports et moyens d’interagir tels que les interfaces sans contact, les objets connectés, la réalité augmentée ou virtuelle.  Le secteur professionnel est composé d’agences digitales, de startups de studios créatifs d’annonceurs, de structures culturelles et de loisir, mais aussi des directions communication, innovation, recherche et développement de grandes entreprises. Force de proposition et de création, les profils recherchés sont créatifs et novateurs et doivent maîtriser les fondamentaux de la communication, de l’ergonomie et des technologies.</li>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+    <footer>
+      <div class="footer-content">
+       </div>
+    </footer>
+  </body>
+
+  
+</html>

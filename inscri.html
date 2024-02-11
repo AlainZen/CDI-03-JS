@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Formulaire D'inscription aux JPO de L'IIM</h1>
+    <button id="darkModeButton">Mode Sombre</button>
+    <form name="myForm" onsubmit="return validateForm()" method="post">
+        <div class="form-style">
+            <div class="form-group">
+                <label for="name">Votre nom <span class="required">*</span></label>
+                <input type="text" id="name" name="name" class="long" required>
+                <span class="error" id="errorname"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Votre adresse e-mail <span class="required">*</span></label>
+                <input type="email" id="email" name="email" class="long" required>
+                <span class="error" id="erroremail"></span>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe <span class="required">*</span></label>
+                <input type="password" id="password" name="password" class="long" required>
+                <span class="error" id="errorpassword"></span>
+            </div>
+            <div class="form-group">
+
+                <input type="radio" id="option1" name="options" value="option1">
+                <label for="option1">Jeux Videos</label>
+
+                <input type="radio" id="option2" name="options" value="option2">
+                <label for="option2">Code Digital & Innovation</label>
+
+                <input type="radio" id="option3" name="options" value="option3">
+                <label for="option3">Création & Design</label>
+                <span class="error" id="errorpassword"> </span>
+
+                <input type="radio" id="option4" name="options" value="option4">
+                <label for="option4">3D</label>
+
+                <input type="radio" id="option5" name="options" value="option5">
+                <label for="option5">CDEB</label>
+
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Envoyer">       
+            </div>
+        </div>
+    </form>
+    <script src="main.js" defer></script>
+</body>
+</html>
